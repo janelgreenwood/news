@@ -2,6 +2,11 @@
   outline: 1px solid black;
 }*/
 
+html,
+body {
+  margin: 0;
+}
+
 .header {
   display: flex;
   border-bottom: 1px solid black;
@@ -40,6 +45,7 @@
 
 .content {
   display: flex;
+  padding: 30px;
 }
 
 .column.large {
@@ -104,6 +110,14 @@ p {
 .stories {
   display: flex;
   flex-direction: row;
+}
+
+.story.first {
+  padding-right: 15px;
+}
+
+.story.second {
+  padding-left: 15px;
 }
 
 .newsbites {
